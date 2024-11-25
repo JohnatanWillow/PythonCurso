@@ -1,7 +1,0 @@
-#Vamos alugar um veículo?
-carro = str(input('Qual o modelo do carro que você alugou conosco? ')).upper()
-dias = int(input('Quantos dias você alugou nosso carro? '))
-km= float(input('Quantos km seu carro alugado percorreu? '))
-valor = (dias * 60) + (km * 1.15)
-print('Seu saldo devedor conosco do veículo {} foi de R${:.2f} pelos {} dias e {} km rodados'.format(carro, valor, dias, km))
-print('OBRIGADO POR UTILIZAR NOSSOS SERVIÇOS')
