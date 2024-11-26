@@ -154,11 +154,3 @@ while opcao != 9:
             print(c, ' >> ', end=' ')
             sleep(0.5)
         print('\033[1;32m;) Au revoir! \n Obrigado por interagir. Volte sempre!\033[m')
-
-
-
-
-
-
-
-
